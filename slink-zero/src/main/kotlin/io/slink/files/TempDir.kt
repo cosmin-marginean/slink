@@ -10,8 +10,9 @@ class TempDir(workingDir: File = workingDirectory()) : Closeable {
 
     val directory = createRootDir(workingDir)
 
-    fun newFile(): File {
-        return File(directory, uuid())
+    fun newFile(extension: String? = null): File {
+        val ext = extension?.let { "." + extension.removePrefix(".") } ?: ""
+        return File(directory, uuid() + ext)
     }
 
     fun newDirectory(): File {

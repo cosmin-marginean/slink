@@ -22,6 +22,8 @@ $dokka.location:io.slink.datetime//ymdDashLoose/#/PointingToDeclaration/slink-z
 $dokka.location:io.slink.datetime//ymdSlash/#/PointingToDeclaration/slink-zero/io.slink.datetime/ymd-slash.html
 $dokka.location:io.slink.datetime//ymdSlashLoose/#/PointingToDeclaration/slink-zero/io.slink.datetime/ymd-slash-loose.html
 $dokka.location:io.slink.files////PointingToDeclaration/slink-zero/io.slink.files/index.html
+$dokka.location:io.slink.files//splitLines/java.io.File#java.io.File#kotlin.Int/PointingToDeclaration/slink-zero/io.slink.files/split-lines.html
+$dokka.location:io.slink.files//splitLines/java.io.InputStream#java.io.File#kotlin.Int#kotlin.String#kotlin.String/PointingToDeclaration/slink-zero/io.slink.files/split-lines.html
 $dokka.location:io.slink.files//withTempDir/#java.io.File#kotlin.Function1[io.slink.files.TempDir,TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/slink-zero/io.slink.files/with-temp-dir.html
 $dokka.location:io.slink.files//workingDirectory/#/PointingToDeclaration/slink-zero/io.slink.files/working-directory.html
 $dokka.location:io.slink.files/TempDir.Companion///PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/-companion/index.html
@@ -30,7 +32,7 @@ $dokka.location:io.slink.files/TempDir/TempDir/#java.io.File/PointingToDeclarati
 $dokka.location:io.slink.files/TempDir/close/#/PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/close.html
 $dokka.location:io.slink.files/TempDir/directory/#/PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/directory.html
 $dokka.location:io.slink.files/TempDir/newDirectory/#/PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/new-directory.html
-$dokka.location:io.slink.files/TempDir/newFile/#/PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/new-file.html
+$dokka.location:io.slink.files/TempDir/newFile/#kotlin.String?/PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/new-file.html
 $dokka.location:io.slink.id////PointingToDeclaration/slink-zero/io.slink.id/index.html
 $dokka.location:io.slink.id//uuid/#/PointingToDeclaration/slink-zero/io.slink.id/uuid.html
 $dokka.location:io.slink.iso3166////PointingToDeclaration/slink-zero/io.slink.iso3166/index.html
