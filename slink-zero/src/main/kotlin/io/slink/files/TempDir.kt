@@ -51,6 +51,9 @@ class TempDir(workingDir: File = workingDirectory()) : Closeable {
     }
 }
 
-fun <T> withTempDir(block: (TempDir) -> T): T {
-    return TempDir().use(block)
+fun <T> withTempDir(
+    workingDir: File = workingDirectory(),
+    block: (TempDir) -> T
+): T {
+    return TempDir(workingDir).use(block)
 }

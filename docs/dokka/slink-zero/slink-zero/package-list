@@ -22,7 +22,7 @@ $dokka.location:io.slink.datetime//ymdDashLoose/#/PointingToDeclaration/slink-z
 $dokka.location:io.slink.datetime//ymdSlash/#/PointingToDeclaration/slink-zero/io.slink.datetime/ymd-slash.html
 $dokka.location:io.slink.datetime//ymdSlashLoose/#/PointingToDeclaration/slink-zero/io.slink.datetime/ymd-slash-loose.html
 $dokka.location:io.slink.files////PointingToDeclaration/slink-zero/io.slink.files/index.html
-$dokka.location:io.slink.files//withTempDir/#kotlin.Function1[io.slink.files.TempDir,TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/slink-zero/io.slink.files/with-temp-dir.html
+$dokka.location:io.slink.files//withTempDir/#java.io.File#kotlin.Function1[io.slink.files.TempDir,TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/slink-zero/io.slink.files/with-temp-dir.html
 $dokka.location:io.slink.files//workingDirectory/#/PointingToDeclaration/slink-zero/io.slink.files/working-directory.html
 $dokka.location:io.slink.files/TempDir.Companion///PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/-companion/index.html
 $dokka.location:io.slink.files/TempDir///PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/index.html
