@@ -1,0 +1,5 @@
+rootProject.name = 'slink-parent'
+
+include 'slink-zero'
+include 'slink-kttp'
+

@@ -1,0 +1,20 @@
+plugins {
+    id "maven-publish"
+    id "signing"
+    id "com.glovoapp.semantic-versioning" version "1.1.10"
+}
+
+repositories {
+    mavenCentral()
+}
+
+subprojects {
+    apply plugin: 'maven-publish'
+    apply plugin: 'signing'
+
+    group = "io.resoluteworks"
+
+    repositories {
+        mavenCentral()
+    }
+}

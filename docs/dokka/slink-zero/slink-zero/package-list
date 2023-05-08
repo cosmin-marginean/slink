@@ -1,0 +1,93 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:io.slink.currency////PointingToDeclaration/slink-zero/io.slink.currency/index.html
+$dokka.location:io.slink.currency//fractionalAmountToString/java.util.Currency#kotlin.Long/PointingToDeclaration/slink-zero/io.slink.currency/fractional-amount-to-string.html
+$dokka.location:io.slink.currency/Currencies///PointingToDeclaration/slink-zero/io.slink.currency/-currencies/index.html
+$dokka.location:io.slink.currency/Currencies/getSymbol/#kotlin.String/PointingToDeclaration/slink-zero/io.slink.currency/-currencies/get-symbol.html
+$dokka.location:io.slink.datetime////PointingToDeclaration/slink-zero/io.slink.datetime/index.html
+$dokka.location:io.slink.datetime//dmyDash/#/PointingToDeclaration/slink-zero/io.slink.datetime/dmy-dash.html
+$dokka.location:io.slink.datetime//dmyDashLoose/#/PointingToDeclaration/slink-zero/io.slink.datetime/dmy-dash-loose.html
+$dokka.location:io.slink.datetime//dmySlash/#/PointingToDeclaration/slink-zero/io.slink.datetime/dmy-slash.html
+$dokka.location:io.slink.datetime//dmySlashLoose/#/PointingToDeclaration/slink-zero/io.slink.datetime/dmy-slash-loose.html
+$dokka.location:io.slink.datetime//formatDmyDash/java.time.temporal.TemporalAccessor#/PointingToDeclaration/slink-zero/io.slink.datetime/format-dmy-dash.html
+$dokka.location:io.slink.datetime//formatDmySlash/java.time.temporal.TemporalAccessor#/PointingToDeclaration/slink-zero/io.slink.datetime/format-dmy-slash.html
+$dokka.location:io.slink.datetime//formatYmdDash/java.time.temporal.TemporalAccessor#/PointingToDeclaration/slink-zero/io.slink.datetime/format-ymd-dash.html
+$dokka.location:io.slink.datetime//formatYmdSlash/java.time.temporal.TemporalAccessor#/PointingToDeclaration/slink-zero/io.slink.datetime/format-ymd-slash.html
+$dokka.location:io.slink.datetime//localDate/java.time.format.DateTimeFormatter#kotlin.String/PointingToDeclaration/slink-zero/io.slink.datetime/local-date.html
+$dokka.location:io.slink.datetime//localDate/kotlin.String#java.time.format.DateTimeFormatter/PointingToDeclaration/slink-zero/io.slink.datetime/local-date.html
+$dokka.location:io.slink.datetime//toDateFormat/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.datetime/to-date-format.html
+$dokka.location:io.slink.datetime//validDate/java.time.format.DateTimeFormatter#kotlin.String/PointingToDeclaration/slink-zero/io.slink.datetime/valid-date.html
+$dokka.location:io.slink.datetime//ymdDash/#/PointingToDeclaration/slink-zero/io.slink.datetime/ymd-dash.html
+$dokka.location:io.slink.datetime//ymdDashLoose/#/PointingToDeclaration/slink-zero/io.slink.datetime/ymd-dash-loose.html
+$dokka.location:io.slink.datetime//ymdSlash/#/PointingToDeclaration/slink-zero/io.slink.datetime/ymd-slash.html
+$dokka.location:io.slink.datetime//ymdSlashLoose/#/PointingToDeclaration/slink-zero/io.slink.datetime/ymd-slash-loose.html
+$dokka.location:io.slink.files////PointingToDeclaration/slink-zero/io.slink.files/index.html
+$dokka.location:io.slink.files//withTempDir/#kotlin.Function1[io.slink.files.TempDir,TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/slink-zero/io.slink.files/with-temp-dir.html
+$dokka.location:io.slink.files//workingDirectory/#/PointingToDeclaration/slink-zero/io.slink.files/working-directory.html
+$dokka.location:io.slink.files/TempDir.Companion///PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/-companion/index.html
+$dokka.location:io.slink.files/TempDir///PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/index.html
+$dokka.location:io.slink.files/TempDir/TempDir/#java.io.File/PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/-temp-dir.html
+$dokka.location:io.slink.files/TempDir/close/#/PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/close.html
+$dokka.location:io.slink.files/TempDir/directory/#/PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/directory.html
+$dokka.location:io.slink.files/TempDir/newDirectory/#/PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/new-directory.html
+$dokka.location:io.slink.files/TempDir/newFile/#/PointingToDeclaration/slink-zero/io.slink.files/-temp-dir/new-file.html
+$dokka.location:io.slink.id////PointingToDeclaration/slink-zero/io.slink.id/index.html
+$dokka.location:io.slink.id//uuid/#/PointingToDeclaration/slink-zero/io.slink.id/uuid.html
+$dokka.location:io.slink.iso3166////PointingToDeclaration/slink-zero/io.slink.iso3166/index.html
+$dokka.location:io.slink.iso3166/Country.Companion///PointingToDeclaration/slink-zero/io.slink.iso3166/-country/-companion/index.html
+$dokka.location:io.slink.iso3166/Country.Companion/allCountries/#/PointingToDeclaration/slink-zero/io.slink.iso3166/-country/-companion/all-countries.html
+$dokka.location:io.slink.iso3166/Country.Companion/byCode/#kotlin.String/PointingToDeclaration/slink-zero/io.slink.iso3166/-country/-companion/by-code.html
+$dokka.location:io.slink.iso3166/Country///PointingToDeclaration/slink-zero/io.slink.iso3166/-country/index.html
+$dokka.location:io.slink.iso3166/Country/Country/#kotlin.String#kotlin.String#kotlin.String#kotlin.collections.List[kotlin.String]/PointingToDeclaration/slink-zero/io.slink.iso3166/-country/-country.html
+$dokka.location:io.slink.iso3166/Country/alpha2Code/#/PointingToDeclaration/slink-zero/io.slink.iso3166/-country/alpha2-code.html
+$dokka.location:io.slink.iso3166/Country/alpha3Code/#/PointingToDeclaration/slink-zero/io.slink.iso3166/-country/alpha3-code.html
+$dokka.location:io.slink.iso3166/Country/name/#/PointingToDeclaration/slink-zero/io.slink.iso3166/-country/name.html
+$dokka.location:io.slink.iso3166/Country/otherNames/#/PointingToDeclaration/slink-zero/io.slink.iso3166/-country/other-names.html
+$dokka.location:io.slink.number////PointingToDeclaration/slink-zero/io.slink.number/index.html
+$dokka.location:io.slink.number//NUMBER_FMT_2DECIMALS/#/PointingToDeclaration/slink-zero/io.slink.number/-n-u-m-b-e-r_-f-m-t_2-d-e-c-i-m-a-l-s.html
+$dokka.location:io.slink.number//NUMBER_FMT_GROUPED/#/PointingToDeclaration/slink-zero/io.slink.number/-n-u-m-b-e-r_-f-m-t_-g-r-o-u-p-e-d.html
+$dokka.location:io.slink.number//format/kotlin.Number#java.lang.ThreadLocal[java.text.NumberFormat]/PointingToDeclaration/slink-zero/io.slink.number/format.html
+$dokka.location:io.slink.number//formatCurrency/kotlin.Number#/PointingToDeclaration/slink-zero/io.slink.number/format-currency.html
+$dokka.location:io.slink.number//formatDecimals/kotlin.Number#/PointingToDeclaration/slink-zero/io.slink.number/format-decimals.html
+$dokka.location:io.slink.number//formatGrouped/kotlin.Number#/PointingToDeclaration/slink-zero/io.slink.number/format-grouped.html
+$dokka.location:io.slink.resources////PointingToDeclaration/slink-zero/io.slink.resources/index.html
+$dokka.location:io.slink.resources//resourceAsInput/#kotlin.String/PointingToDeclaration/slink-zero/io.slink.resources/resource-as-input.html
+$dokka.location:io.slink.resources//resourceAsProps/#kotlin.String#java.nio.charset.Charset/PointingToDeclaration/slink-zero/io.slink.resources/resource-as-props.html
+$dokka.location:io.slink.resources//resourceAsString/#kotlin.String#java.nio.charset.Charset/PointingToDeclaration/slink-zero/io.slink.resources/resource-as-string.html
+$dokka.location:io.slink.resources//resourceAsStrings/#kotlin.String#java.nio.charset.Charset/PointingToDeclaration/slink-zero/io.slink.resources/resource-as-strings.html
+$dokka.location:io.slink.string////PointingToDeclaration/slink-zero/io.slink.string/index.html
+$dokka.location:io.slink.string//REGEX_NON_ALPHA/#/PointingToDeclaration/slink-zero/io.slink.string/-r-e-g-e-x_-n-o-n_-a-l-p-h-a.html
+$dokka.location:io.slink.string//REGEX_WHITESPACE/#/PointingToDeclaration/slink-zero/io.slink.string/-r-e-g-e-x_-w-h-i-t-e-s-p-a-c-e.html
+$dokka.location:io.slink.string//anonymize/kotlin.String#kotlin.Int/PointingToDeclaration/slink-zero/io.slink.string/anonymize.html
+$dokka.location:io.slink.string//anonymizeEmail/kotlin.String#kotlin.Int/PointingToDeclaration/slink-zero/io.slink.string/anonymize-email.html
+$dokka.location:io.slink.string//camelToKebabCase/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/camel-to-kebab-case.html
+$dokka.location:io.slink.string//cleanEmail/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/clean-email.html
+$dokka.location:io.slink.string//cleanWhitespace/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/clean-whitespace.html
+$dokka.location:io.slink.string//domain/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/domain.html
+$dokka.location:io.slink.string//ellipsis/kotlin.String#kotlin.Int/PointingToDeclaration/slink-zero/io.slink.string/ellipsis.html
+$dokka.location:io.slink.string//enumLabel/kotlin.Enum[TypeParam(bounds=[kotlin.Enum[^]])]#/PointingToDeclaration/slink-zero/io.slink.string/enum-label.html
+$dokka.location:io.slink.string//enumLabel/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/enum-label.html
+$dokka.location:io.slink.string//kebabToCamelCase/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/kebab-to-camel-case.html
+$dokka.location:io.slink.string//nullIfBlank/kotlin.String?#/PointingToDeclaration/slink-zero/io.slink.string/null-if-blank.html
+$dokka.location:io.slink.string//titleCaseFirstChar/kotlin.String#java.util.Locale/PointingToDeclaration/slink-zero/io.slink.string/title-case-first-char.html
+$dokka.location:io.slink.string//toLines/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/to-lines.html
+$dokka.location:io.slink.string//urlEncode/kotlin.String#java.nio.charset.Charset/PointingToDeclaration/slink-zero/io.slink.string/url-encode.html
+$dokka.location:io.slink.tsv////PointingToDeclaration/slink-zero/io.slink.tsv/index.html
+$dokka.location:io.slink.tsv//readTsv/java.io.InputStream#kotlin.Char#java.nio.charset.Charset#kotlin.Function1[kotlin.collections.List[kotlin.String],kotlin.Unit]/PointingToDeclaration/slink-zero/io.slink.tsv/read-tsv.html
+$dokka.location:io.slink.tsv//readTsv/java.io.InputStream#kotlin.Char#java.nio.charset.Charset/PointingToDeclaration/slink-zero/io.slink.tsv/read-tsv.html
+$dokka.location:io.slink.tsv//readTsv/kotlin.String#kotlin.Char#kotlin.Function1[kotlin.collections.List[kotlin.String],kotlin.Unit]/PointingToDeclaration/slink-zero/io.slink.tsv/read-tsv.html
+$dokka.location:io.slink.tsv//readTsv/kotlin.String#kotlin.Char/PointingToDeclaration/slink-zero/io.slink.tsv/read-tsv.html
+$dokka.location:io.slink.tsv//readTsvWithHeader/java.io.InputStream#kotlin.Char#java.nio.charset.Charset#kotlin.Function1[kotlin.collections.Map[kotlin.String,kotlin.String],kotlin.Unit]/PointingToDeclaration/slink-zero/io.slink.tsv/read-tsv-with-header.html
+$dokka.location:io.slink.tsv//readTsvWithHeader/java.io.InputStream#kotlin.Char#java.nio.charset.Charset/PointingToDeclaration/slink-zero/io.slink.tsv/read-tsv-with-header.html
+$dokka.location:io.slink.tsv//readTsvWithHeader/kotlin.String#kotlin.Char#kotlin.Function1[kotlin.collections.Map[kotlin.String,kotlin.String],kotlin.Unit]/PointingToDeclaration/slink-zero/io.slink.tsv/read-tsv-with-header.html
+$dokka.location:io.slink.tsv//readTsvWithHeader/kotlin.String#kotlin.Char/PointingToDeclaration/slink-zero/io.slink.tsv/read-tsv-with-header.html
+io.slink.currency
+io.slink.datetime
+io.slink.files
+io.slink.id
+io.slink.iso3166
+io.slink.number
+io.slink.resources
+io.slink.string
+io.slink.tsv
+

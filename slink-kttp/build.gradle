@@ -1,0 +1,57 @@
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "${kotlinVersion}"
+    id "org.jetbrains.dokka" version "${dokkaVersion}"
+    id "jacoco"
+}
+
+ext.publishDescription = "Kotlin extensions and utilites for OkHttp"
+apply from: '../publish.gradle'
+
+dependencies {
+    api "com.squareup.okhttp3:okhttp:${okHttpVersion}"
+
+    testImplementation "io.kotest:kotest-assertions-core:${kotestVersion}"
+    testImplementation "io.kotest:kotest-property:${kotestVersion}"
+    testImplementation "io.kotest:kotest-runner-junit5-jvm:${kotestVersion}"
+    testImplementation "com.squareup.okhttp3:mockwebserver:${okHttpVersion}"
+}
+
+kotlin {
+    jvmToolchain(17)
+}
+
+java {
+    withJavadocJar()
+    withSourcesJar()
+}
+
+javadocJar {
+    dependsOn(dokkaHtml)
+    archiveClassifier.set("javadoc")
+    from(dokkaHtml.outputDirectory)
+}
+
+dokkaHtml {
+    outputDirectory.set(file("../docs/dokka/${project.name}"))
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        showStandardStreams = true
+    }
+    finalizedBy jacocoTestReport
+}
+
+signing {
+    sign publishing.publications.mavenJava
+}
+
+jacocoTestReport {
+    reports {
+        html.required = true
+        xml.required = true
+    }
+}
+
+tasks.publish.dependsOn(test)
