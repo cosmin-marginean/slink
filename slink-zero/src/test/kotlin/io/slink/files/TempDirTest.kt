@@ -24,4 +24,13 @@ class TempDirTest : StringSpec({
             newFile.readText() shouldBe content
         }
     }
+
+    "custom directory" {
+        withTempDir(File("temp")) { tempdir ->
+            val newFile = tempdir.newFile()
+            val content = "test " + uuid()
+            newFile.writeText(content)
+            newFile.readText() shouldBe content
+        }
+    }
 })
