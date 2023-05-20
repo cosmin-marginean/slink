@@ -7,7 +7,7 @@ import java.util.*
  */
 fun uuid(): String {
     return UUID.randomUUID()
-        .toString()
-        .lowercase(Locale.getDefault())
-        .replace("-", "")
+            .toString()
+            .lowercase(Locale.getDefault())
+            .replace("-", "")
 }

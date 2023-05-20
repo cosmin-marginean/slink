@@ -6,9 +6,9 @@ import java.io.InputStreamReader
 import java.nio.charset.Charset
 
 fun InputStream.readTsv(
-    commentChar: Char = '#',
-    charset: Charset = Charsets.UTF_8,
-    processRow: (List<String>) -> Unit,
+        commentChar: Char = '#',
+        charset: Charset = Charsets.UTF_8,
+        processRow: (List<String>) -> Unit,
 ) {
     BufferedReader(InputStreamReader(this, charset)).useLines {
         it.forEach { line ->
@@ -36,9 +36,9 @@ fun String.readTsv(commentChar: Char = '#'): List<List<String>> {
 }
 
 fun InputStream.readTsvWithHeader(
-    commentChar: Char = '#',
-    charset: Charset = Charsets.UTF_8,
-    processRow: (Map<String, String>) -> Unit,
+        commentChar: Char = '#',
+        charset: Charset = Charsets.UTF_8,
+        processRow: (Map<String, String>) -> Unit,
 ) {
     var headers: List<String>? = null
     BufferedReader(InputStreamReader(this, charset)).useLines {
@@ -59,8 +59,8 @@ fun InputStream.readTsvWithHeader(commentChar: Char = '#', charset: Charset = Ch
 }
 
 fun String.readTsvWithHeader(
-    commentChar: Char = '#',
-    processRow: (Map<String, String>) -> Unit
+        commentChar: Char = '#',
+        processRow: (Map<String, String>) -> Unit
 ) {
     var headers: List<String>? = null
     split("\n").forEach { line ->
@@ -89,8 +89,8 @@ private fun String.toTsvRow(commentChar: Char): List<String>? {
 
 private fun String.toTsvRow(headers: List<String>, commentChar: Char): Map<String, String>? {
     return toTsvRow(commentChar)
-        ?.mapIndexed { index, element ->
-            headers[index] to element
-        }
-        ?.toMap()
+            ?.mapIndexed { index, element ->
+                headers[index] to element
+            }
+            ?.toMap()
 }

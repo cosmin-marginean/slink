@@ -20,22 +20,22 @@ fun InputStream.splitLines(outputDirectory: File, linesPerFile: Int, baseName: S
     var fileIndex = 0
 
     bufferedReader()
-        .useLines { lines ->
-            lines.forEachIndexed { index, line ->
-                if (crtFileWriter == null) {
-                    val nextFile = File(outputDirectory, baseName + "-${fileIndex + 1}." + extension)
-                    files.add(nextFile)
-                    crtFileWriter = nextFile.bufferedWriter()
-                }
-                crtFileWriter!!.write(line)
-                crtFileWriter!!.write("\n")
-                if (index % linesPerFile == linesPerFile - 1) {
-                    crtFileWriter!!.close()
-                    crtFileWriter = null
-                    fileIndex++
+            .useLines { lines ->
+                lines.forEachIndexed { index, line ->
+                    if (crtFileWriter == null) {
+                        val nextFile = File(outputDirectory, baseName + "-${fileIndex + 1}." + extension)
+                        files.add(nextFile)
+                        crtFileWriter = nextFile.bufferedWriter()
+                    }
+                    crtFileWriter!!.write(line)
+                    crtFileWriter!!.write("\n")
+                    if (index % linesPerFile == linesPerFile - 1) {
+                        crtFileWriter!!.close()
+                        crtFileWriter = null
+                        fileIndex++
+                    }
                 }
             }
-        }
     crtFileWriter?.close()
 
     return files

@@ -11,6 +11,14 @@ class StringsTest : StringSpec({
         "   a \t \n b \t1 ".replace(REGEX_WHITESPACE, "") shouldBe "ab1"
     }
 
+    "cleanWhitespace" {
+        "   a \t \n b \t1 ".cleanWhitespace() shouldBe "a b 1"
+    }
+
+    "removeWhitespace" {
+        "   a \t \n b \t1 ".removeWhitespace() shouldBe "ab1"
+    }
+
     "domain" {
         "test.com".domain() shouldBe "test.com"
         "abc.test.com".domain() shouldBe "abc.test.com"

@@ -17,6 +17,10 @@ fun String.cleanWhitespace(): String {
     return replace(REGEX_WHITESPACE, " ").trim()
 }
 
+fun String.removeWhitespace(): String {
+    return replace(REGEX_WHITESPACE, "").trim()
+}
+
 fun String.titleCaseFirstChar(locale: Locale = Locale.getDefault()): String {
     return replaceFirstChar { it.titlecase(locale) }
 }
@@ -49,11 +53,11 @@ fun String.anonymizeEmail(visibleEndChars: Int = 0): String {
 fun String.anonymize(visibleEndChars: Int = 0): String {
     val visibleStartIndex = (this.length - visibleEndChars).coerceAtLeast(0)
     return String(this
-        .toCharArray()
-        .mapIndexed { index, char ->
-            if (index < visibleStartIndex) '*' else char
-        }
-        .toCharArray()
+            .toCharArray()
+            .mapIndexed { index, char ->
+                if (index < visibleStartIndex) '*' else char
+            }
+            .toCharArray()
     )
 }
 
@@ -62,16 +66,16 @@ private val DOMAIN_PORT = ":.*".toRegex()
 private val DOMAIN_REST_OF_PATH = "/.*".toRegex()
 fun String.domain(): String {
     return this
-        .lowercase()
-        .replace(DOMAIN_COLON_SLASHES, "")
-        .replace(DOMAIN_PORT, "")
-        .replace(DOMAIN_REST_OF_PATH, "")
+            .lowercase()
+            .replace(DOMAIN_COLON_SLASHES, "")
+            .replace(DOMAIN_PORT, "")
+            .replace(DOMAIN_REST_OF_PATH, "")
 }
 
 fun String.toLines(): List<String> {
     return this.split("\n")
-        .map { it.trim() }
-        .filter { it.isNotEmpty() }
+            .map { it.trim() }
+            .filter { it.isNotEmpty() }
 }
 
 fun <E : Enum<E>> Enum<E>.enumLabel(): String {
@@ -91,6 +95,6 @@ fun String.camelToKebabCase(): String {
 
 fun String.kebabToCamelCase(): String {
     return PATTERN_KEBAB
-        .matcher(this)
-        .replaceAll { mr -> mr.group(1).uppercase() }
+            .matcher(this)
+            .replaceAll { mr -> mr.group(1).uppercase() }
 }

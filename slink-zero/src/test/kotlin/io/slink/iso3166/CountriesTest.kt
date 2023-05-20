@@ -6,9 +6,9 @@ import io.kotest.matchers.shouldBe
 class CountriesTest : StringSpec({
 
     val uk = Country(
-        "GB", "GBR", "United Kingdom", listOf(
+            "GB", "GBR", "United Kingdom", listOf(
             "UK", "Britain", "Great Britain", "United Kingdom of Great Britain and Northern Ireland"
-        )
+    )
     )
 
     "country by code" {

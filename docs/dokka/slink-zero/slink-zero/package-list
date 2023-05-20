@@ -71,6 +71,7 @@ $dokka.location:io.slink.string//enumLabel/kotlin.Enum[TypeParam(bounds=[kotlin.
 $dokka.location:io.slink.string//enumLabel/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/enum-label.html
 $dokka.location:io.slink.string//kebabToCamelCase/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/kebab-to-camel-case.html
 $dokka.location:io.slink.string//nullIfBlank/kotlin.String?#/PointingToDeclaration/slink-zero/io.slink.string/null-if-blank.html
+$dokka.location:io.slink.string//removeWhitespace/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/remove-whitespace.html
 $dokka.location:io.slink.string//titleCaseFirstChar/kotlin.String#java.util.Locale/PointingToDeclaration/slink-zero/io.slink.string/title-case-first-char.html
 $dokka.location:io.slink.string//toLines/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/to-lines.html
 $dokka.location:io.slink.string//urlEncode/kotlin.String#java.nio.charset.Charset/PointingToDeclaration/slink-zero/io.slink.string/url-encode.html

@@ -17,7 +17,7 @@ object Currencies {
 
 fun Currency.fractionalAmountToString(decimalAmount: Long): String {
     val value = BigDecimal(decimalAmount)
-        .divide(BigDecimal(10.0.pow(this.defaultFractionDigits)))
+            .divide(BigDecimal(10.0.pow(this.defaultFractionDigits)))
 
     val decimals = if (this.defaultFractionDigits > 0) {
         ".".padEnd(this.defaultFractionDigits + 1, '0')

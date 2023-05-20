@@ -45,47 +45,47 @@ fun newHttpClient(init: OkHttpClient.Builder.() -> Unit = { }): OkHttpClient {
 
 fun OkHttpClient.get(url: String, headers: Map<String, String> = emptyMap()): Response {
     val request = Request.Builder()
-        .url(url)
-        .get()
-        .headers(headers.toHeaders())
-        .build()
+            .url(url)
+            .get()
+            .headers(headers.toHeaders())
+            .build()
     return newCall(request).execute()
 }
 
 fun OkHttpClient.head(url: String, headers: Map<String, String> = emptyMap()): Response {
     val request = Request.Builder()
-        .url(url)
-        .head()
-        .headers(headers.toHeaders())
-        .build()
+            .url(url)
+            .head()
+            .headers(headers.toHeaders())
+            .build()
     return newCall(request).execute()
 }
 
 fun OkHttpClient.post(
-    url: String,
-    data: String,
-    mediaType: String,
-    headers: Map<String, String> = emptyMap()
+        url: String,
+        data: String,
+        mediaType: String,
+        headers: Map<String, String> = emptyMap()
 ): Response {
     val request = Request.Builder()
-        .url(url)
-        .post(data.toRequestBody(mediaType.toMediaType()))
-        .headers(headers.toHeaders())
-        .build()
+            .url(url)
+            .post(data.toRequestBody(mediaType.toMediaType()))
+            .headers(headers.toHeaders())
+            .build()
     return newCall(request).execute()
 }
 
 fun OkHttpClient.postForm(
-    url: String,
-    data: Map<String, Any>,
-    headers: Map<String, String> = emptyMap()
+        url: String,
+        data: Map<String, Any>,
+        headers: Map<String, String> = emptyMap()
 ): Response {
     val formBody = FormBody.Builder()
     data.forEach { (key, value) -> formBody.add(key, value.toString()) }
     val request = Request.Builder()
-        .url(url)
-        .post(formBody.build())
-        .headers(headers.toHeaders())
-        .build()
+            .url(url)
+            .post(formBody.build())
+            .headers(headers.toHeaders())
+            .build()
     return newCall(request).execute()
 }

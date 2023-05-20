@@ -4,15 +4,15 @@ import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
 
 fun withMockRequest(
-    body: String = "",
-    code: Int = 200,
-    cookie: String? = null,
-    block: (MockWebServer, String) -> Unit
+        body: String = "",
+        code: Int = 200,
+        cookie: String? = null,
+        block: (MockWebServer, String) -> Unit
 ) {
     val server = MockWebServer()
     val response = MockResponse()
-        .setBody(body)
-        .setResponseCode(code)
+            .setBody(body)
+            .setResponseCode(code)
 
     if (cookie != null) {
         response.addHeader("Set-Cookie: $cookie")

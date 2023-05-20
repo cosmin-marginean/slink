@@ -8,13 +8,13 @@ import io.slink.resources.resourceAsString
 class TsvTest : StringSpec({
 
     val testDataNoHeader = listOf(
-        listOf("John Smith", "33", "john@smith.com"),
-        listOf("Jane Doe", "35", "jane@doe.com")
+            listOf("John Smith", "33", "john@smith.com"),
+            listOf("Jane Doe", "35", "jane@doe.com")
     )
 
     val testDataWithHeader = listOf(
-        mapOf("Name" to "John Smith", "Age" to "33", "Email" to "john@smith.com"),
-        mapOf("Name" to "Jane Doe", "Age" to "35", "Email" to "jane@doe.com")
+            mapOf("Name" to "John Smith", "Age" to "33", "Email" to "john@smith.com"),
+            mapOf("Name" to "Jane Doe", "Age" to "35", "Email" to "jane@doe.com")
     )
 
     "simple tsv" {

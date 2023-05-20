@@ -51,17 +51,17 @@ class SplitLinesTest : StringSpec() {
     }
 
     private fun checkFiles(
-        files: List<File>,
-        expectFiles: Int,
-        parentDir: File,
-        baseName: String,
-        extension: String,
-        linesPerFile: Int,
-        text: String,
+            files: List<File>,
+            expectFiles: Int,
+            parentDir: File,
+            baseName: String,
+            extension: String,
+            linesPerFile: Int,
+            text: String,
     ): String {
         files.size shouldBe expectFiles
         parentDir.list().toList().sorted() shouldBe ((1..files.size).map { "${baseName}-${it}.${extension}" }).toList()
-            .sorted()
+                .sorted()
 
         files.forEachIndexed { index, splitFile ->
             if (index < files.size - 1) {
