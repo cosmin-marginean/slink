@@ -1,8 +1,11 @@
 package io.slink.files
 
+import org.slf4j.LoggerFactory
 import java.io.BufferedWriter
 import java.io.File
 import java.io.InputStream
+
+private val log = LoggerFactory.getLogger("io.slink.files")
 
 fun workingDirectory(): File {
     return File(System.getProperty("user.dir"))
@@ -14,7 +17,10 @@ fun File.splitLines(outputDirectory: File, linesPerFile: Int): List<File> {
     }
 }
 
-fun InputStream.splitLines(outputDirectory: File, linesPerFile: Int, baseName: String, extension: String = ""): List<File> {
+fun InputStream.splitLines(outputDirectory: File,
+                           linesPerFile: Int,
+                           baseName: String,
+                           extension: String = ""): List<File> {
     val files = mutableListOf<File>()
     var crtFileWriter: BufferedWriter? = null
     var fileIndex = 0
@@ -24,6 +30,7 @@ fun InputStream.splitLines(outputDirectory: File, linesPerFile: Int, baseName: S
                 lines.forEachIndexed { index, line ->
                     if (crtFileWriter == null) {
                         val nextFile = File(outputDirectory, baseName + "-${fileIndex + 1}." + extension)
+                        log.info("Creating split file $nextFile")
                         files.add(nextFile)
                         crtFileWriter = nextFile.bufferedWriter()
                     }
