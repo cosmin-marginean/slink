@@ -27,8 +27,8 @@ fun Currency.fractionalAmountToString(decimalAmount: Long): String {
 
     val symbol = Currencies.getSymbol(this.currencyCode)
 
-    return if (decimalAmount > 0) {
-        symbol + DecimalFormat("#,###$decimals").format(value)
+    return if (decimalAmount >= 0) {
+        symbol + DecimalFormat("#,##0$decimals").format(value)
     } else {
         "-" + symbol + DecimalFormat("#,###$decimals").format(value.abs())
     }

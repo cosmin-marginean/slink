@@ -17,6 +17,7 @@ class CurrenciesTest : StringSpec({
 
     "fractional amount to string" {
         Currency.getInstance("GBP").fractionalAmountToString(134) shouldBe "£1.34"
+        Currency.getInstance("GBP").fractionalAmountToString(0) shouldBe "£0.00"
         Currency.getInstance("USD").fractionalAmountToString(2385) shouldBe "$23.85"
         Currency.getInstance("EUR").fractionalAmountToString(-32095812885) shouldBe "-€320,958,128.85"
         Currency.getInstance("NGN").fractionalAmountToString(9023853) shouldBe "₦90,238.53"
