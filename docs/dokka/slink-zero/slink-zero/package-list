@@ -13,12 +13,13 @@ $dokka.location:io.slink.datetime//formatDmyDash/java.time.temporal.TemporalAcce
 $dokka.location:io.slink.datetime//formatDmySlash/java.time.temporal.TemporalAccessor#/PointingToDeclaration/slink-zero/io.slink.datetime/format-dmy-slash.html
 $dokka.location:io.slink.datetime//formatYmdDash/java.time.temporal.TemporalAccessor#/PointingToDeclaration/slink-zero/io.slink.datetime/format-ymd-dash.html
 $dokka.location:io.slink.datetime//formatYmdSlash/java.time.temporal.TemporalAccessor#/PointingToDeclaration/slink-zero/io.slink.datetime/format-ymd-slash.html
+$dokka.location:io.slink.datetime//humanReadableString/java.time.Duration#/PointingToDeclaration/slink-zero/io.slink.datetime/human-readable-string.html
+$dokka.location:io.slink.datetime//humanReadableString/kotlin.time.Duration#/PointingToDeclaration/slink-zero/io.slink.datetime/human-readable-string.html
 $dokka.location:io.slink.datetime//localDate/java.time.format.DateTimeFormatter#kotlin.String/PointingToDeclaration/slink-zero/io.slink.datetime/local-date.html
 $dokka.location:io.slink.datetime//localDate/kotlin.String#java.time.format.DateTimeFormatter/PointingToDeclaration/slink-zero/io.slink.datetime/local-date.html
 $dokka.location:io.slink.datetime//toDateFormat/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.datetime/to-date-format.html
 $dokka.location:io.slink.datetime//toDuration/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.datetime/to-duration.html
-$dokka.location:io.slink.datetime//toHumanReadableString/java.time.Duration#/PointingToDeclaration/slink-zero/io.slink.datetime/to-human-readable-string.html
-$dokka.location:io.slink.datetime//toHumanReadableString/kotlin.time.Duration#/PointingToDeclaration/slink-zero/io.slink.datetime/to-human-readable-string.html
+$dokka.location:io.slink.datetime//toJavaDuration/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.datetime/to-java-duration.html
 $dokka.location:io.slink.datetime//validDate/java.time.format.DateTimeFormatter#kotlin.String/PointingToDeclaration/slink-zero/io.slink.datetime/valid-date.html
 $dokka.location:io.slink.datetime//ymdDash/#/PointingToDeclaration/slink-zero/io.slink.datetime/ymd-dash.html
 $dokka.location:io.slink.datetime//ymdDashLoose/#/PointingToDeclaration/slink-zero/io.slink.datetime/ymd-dash-loose.html

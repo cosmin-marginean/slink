@@ -1,8 +1,7 @@
 package io.slink.datetime
 
-import java.time.Duration
 import kotlin.math.absoluteValue
-import kotlin.time.toJavaDuration
+import kotlin.time.*
 
 internal val REGEX_DURATION = """
     ^-?(
@@ -44,6 +43,10 @@ internal val GROUP_UNIT_CONVERTERS = mapOf(
         "milliseconds2" to MS
 )
 
+fun String.toJavaDuration(): java.time.Duration? {
+    return this.toDuration()?.toJavaDuration()
+}
+
 fun String.toDuration(): Duration? {
     val matcher = REGEX_DURATION.find(this) ?: return null
     var durationMs = 0L
@@ -53,20 +56,18 @@ fun String.toDuration(): Duration? {
         if (amount != null)
             durationMs += amount * multiplier
     }
-    val duration = Duration.ofMillis(durationMs)
-    return if (this.startsWith('-')) {
-        duration.negated()
-    } else {
-        duration
+    if (this.startsWith('-')) {
+        durationMs = -durationMs
     }
+    return durationMs.toDuration(DurationUnit.MILLISECONDS)
 }
 
-fun kotlin.time.Duration.toHumanReadableString(): String {
-    return this.toJavaDuration().toHumanReadableString()
+fun java.time.Duration.humanReadableString(): String {
+    return this.toKotlinDuration().humanReadableString()
 }
 
-fun Duration.toHumanReadableString(): String {
-    val millisValue = this.toMillis().absoluteValue
+fun Duration.humanReadableString(): String {
+    val millisValue = this.inWholeMilliseconds.absoluteValue
     if (millisValue == 0L) {
         return "0ms"
     }
@@ -88,7 +89,7 @@ fun Duration.toHumanReadableString(): String {
     val start = elements.indexOfFirst { it[0] != '0' }
     val end = elements.indexOfLast { it[0] != '0' }
     val string = elements.subList(start, end + 1).joinToString(" ")
-    return if (this.isNegative) {
+    return if (this.isNegative()) {
         "-$string"
     } else {
         string
