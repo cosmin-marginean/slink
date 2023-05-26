@@ -2,6 +2,7 @@ package io.slink.datetime
 
 import java.time.Duration
 import kotlin.math.absoluteValue
+import kotlin.time.toJavaDuration
 
 internal val REGEX_DURATION = """
     ^-?(
@@ -58,6 +59,10 @@ fun String.toDuration(): Duration? {
     } else {
         duration
     }
+}
+
+fun kotlin.time.Duration.toHumanReadableString(): String {
+    return this.toJavaDuration().toHumanReadableString()
 }
 
 fun Duration.toHumanReadableString(): String {
