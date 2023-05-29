@@ -13,6 +13,7 @@ class StringsTest : StringSpec({
 
     "cleanWhitespace" {
         "   a \t \n b \t1 ".cleanWhitespace() shouldBe "a b 1"
+        "\u200B my \u200B text \u200B \u200B".cleanWhitespace() shouldBe "my text"
     }
 
     "removeWhitespace" {

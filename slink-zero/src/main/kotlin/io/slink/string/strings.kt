@@ -7,7 +7,7 @@ import java.util.*
 import java.util.regex.Pattern
 
 val REGEX_NON_ALPHA = "[^a-zA-Z\\d]+".toRegex()
-val REGEX_WHITESPACE = "\\s+".toRegex()
+val REGEX_WHITESPACE = "(\u200B|\\s)+".toRegex()
 
 fun String.urlEncode(charset: Charset = StandardCharsets.UTF_8): String {
     return URLEncoder.encode(this, charset.name())
