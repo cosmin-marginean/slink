@@ -69,8 +69,10 @@ $dokka.location:io.slink.string//anonymizeEmail/kotlin.String#kotlin.Int/Pointin
 $dokka.location:io.slink.string//camelToKebabCase/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/camel-to-kebab-case.html
 $dokka.location:io.slink.string//cleanEmail/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/clean-email.html
 $dokka.location:io.slink.string//cleanWhitespace/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/clean-whitespace.html
+$dokka.location:io.slink.string//decodeBase64/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/decode-base64.html
 $dokka.location:io.slink.string//domain/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/domain.html
 $dokka.location:io.slink.string//ellipsis/kotlin.String#kotlin.Int/PointingToDeclaration/slink-zero/io.slink.string/ellipsis.html
+$dokka.location:io.slink.string//encodeBase64/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/encode-base64.html
 $dokka.location:io.slink.string//enumLabel/kotlin.Enum[TypeParam(bounds=[kotlin.Enum[^]])]#/PointingToDeclaration/slink-zero/io.slink.string/enum-label.html
 $dokka.location:io.slink.string//enumLabel/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/enum-label.html
 $dokka.location:io.slink.string//kebabToCamelCase/kotlin.String#/PointingToDeclaration/slink-zero/io.slink.string/kebab-to-camel-case.html

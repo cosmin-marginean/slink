@@ -18,6 +18,7 @@ class StringsTest : StringSpec({
 
     "removeWhitespace" {
         "   a \t \n b \t1 ".removeWhitespace() shouldBe "ab1"
+        "\u200B my \u200B text \u200B \u200B".removeWhitespace() shouldBe "mytext"
     }
 
     "domain" {
