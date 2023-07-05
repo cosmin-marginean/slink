@@ -17,7 +17,7 @@ dependencies {
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(11)
 }
 
 java {
@@ -32,7 +32,7 @@ javadocJar {
 }
 
 dokkaHtml {
-    outputDirectory.set(file("../docs/dokka/${project.name}"))
+    outputDirectory.set(file("../build/dokka/${project.name}"))
 }
 
 test {
