@@ -1,0 +1,28 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:io.slink.http////PointingToDeclaration/slink-http/io.slink.http/index.html
+$dokka.location:io.slink.http//HTTP_CREATED/#/PointingToDeclaration/slink-http/io.slink.http/-h-t-t-p_-c-r-e-a-t-e-d.html
+$dokka.location:io.slink.http//HTTP_OK/#/PointingToDeclaration/slink-http/io.slink.http/-h-t-t-p_-o-k.html
+$dokka.location:io.slink.http//baseUrl/okhttp3.OkHttpClient.Builder#kotlin.String/PointingToDeclaration/slink-http/io.slink.http/base-url.html
+$dokka.location:io.slink.http//checkOk/okhttp3.Response#/PointingToDeclaration/slink-http/io.slink.http/check-ok.html
+$dokka.location:io.slink.http//checkStatus/okhttp3.Response#kotlin.IntArray/PointingToDeclaration/slink-http/io.slink.http/check-status.html
+$dokka.location:io.slink.http//get/okhttp3.OkHttpClient#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/slink-http/io.slink.http/get.html
+$dokka.location:io.slink.http//head/okhttp3.OkHttpClient#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/slink-http/io.slink.http/head.html
+$dokka.location:io.slink.http//ignoreSslErrors/okhttp3.OkHttpClient.Builder#/PointingToDeclaration/slink-http/io.slink.http/ignore-ssl-errors.html
+$dokka.location:io.slink.http//isOk/okhttp3.Response#/PointingToDeclaration/slink-http/io.slink.http/is-ok.html
+$dokka.location:io.slink.http//newHttpClient/#kotlin.Function1[okhttp3.OkHttpClient.Builder,kotlin.Unit]/PointingToDeclaration/slink-http/io.slink.http/new-http-client.html
+$dokka.location:io.slink.http//noRedirects/okhttp3.OkHttpClient.Builder#/PointingToDeclaration/slink-http/io.slink.http/no-redirects.html
+$dokka.location:io.slink.http//post/okhttp3.OkHttpClient#kotlin.String#kotlin.String#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/slink-http/io.slink.http/post.html
+$dokka.location:io.slink.http//postForm/okhttp3.OkHttpClient#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any]#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/slink-http/io.slink.http/post-form.html
+$dokka.location:io.slink.http//text/okhttp3.Response#/PointingToDeclaration/slink-http/io.slink.http/text.html
+$dokka.location:io.slink.http//withBody/okhttp3.Response#kotlin.Function2[kotlin.Long,java.io.InputStream,TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/slink-http/io.slink.http/with-body.html
+$dokka.location:io.slink.http//writeTo/okhttp3.Response#java.io.File/PointingToDeclaration/slink-http/io.slink.http/write-to.html
+$dokka.location:io.slink.http//writeTo/okhttp3.Response#java.io.OutputStream/PointingToDeclaration/slink-http/io.slink.http/write-to.html
+$dokka.location:io.slink.http/SlinkHttpException///PointingToDeclaration/slink-http/io.slink.http/-slink-http-exception/index.html
+$dokka.location:io.slink.http/SlinkHttpException/SlinkHttpException/#kotlin.String#kotlin.Int#kotlin.String/PointingToDeclaration/slink-http/io.slink.http/-slink-http-exception/-slink-http-exception.html
+$dokka.location:io.slink.http/SlinkHttpException/SlinkHttpException/#okhttp3.Response/PointingToDeclaration/slink-http/io.slink.http/-slink-http-exception/-slink-http-exception.html
+$dokka.location:io.slink.http/SlinkHttpException/code/#/PointingToDeclaration/slink-http/io.slink.http/-slink-http-exception/code.html
+$dokka.location:io.slink.http/SlinkHttpException/responseBody/#/PointingToDeclaration/slink-http/io.slink.http/-slink-http-exception/response-body.html
+$dokka.location:io.slink.http/SlinkHttpException/url/#/PointingToDeclaration/slink-http/io.slink.http/-slink-http-exception/url.html
+io.slink.http
+
