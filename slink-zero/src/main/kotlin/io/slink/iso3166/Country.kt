@@ -30,8 +30,8 @@ data class Country(
                 .associateBy { it.alpha2Code.uppercase() }
                 .plus(allCountries.associateBy { it.alpha3Code.uppercase() })
 
-        fun byCode(alpha2Or3Code: String): Country {
-            return countriesByCode[alpha2Or3Code.uppercase()]!!
+        fun byCode(alpha2Or3Code: String): Country? {
+            return countriesByCode[alpha2Or3Code.uppercase()]
         }
     }
 }
